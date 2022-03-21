@@ -21,8 +21,8 @@ sudo apt-get autoremove
 
 
 
-# make sure to add the bellow lines in your .gitconfig file under the home of the user and be sure that the aws user
-# credentials you use to interact with your aws resource have the permissions of accessing the aws codecommit service
+* make sure to add the bellow lines in your .gitconfig file under the home of the user and be sure that the aws user
+* credentials you use to interact with your aws resource have the permissions of accessing the aws codecommit service
 
 ```
 [credential]
