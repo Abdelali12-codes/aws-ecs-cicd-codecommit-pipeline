@@ -20,3 +20,13 @@ sudo apt-get autoremove
 * then install the aws-cli by following the above instructions
 
 
+
+# make sure to add the bellow lines in your .gitconfig file under the home of the user and be sure that the aws user
+# credentials you use to interact with your aws resource have the permissions of accessing the aws codecommit service
+
+```
+[credential]
+     helper = !aws codecommit credential-helper $@
+     UseHttpPath = true
+    
+```
